@@ -1,0 +1,118 @@
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+}
+
+#info {
+    width: 50%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+    border-right: 1px solid #ccc;
+
+    /* Centralizar conteúdo */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="text"]::placeholder {
+    color: #aaa;
+    font-size: 14px;
+}
+
+#canvas-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    display: block;
+}
+
+/* Estilo para a palavra HOME */
+#letters {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Espaço entre a palavra HOME e a matriz */
+}
+
+.letter-button {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.letter-button:hover {
+    background-color: #0056b3;
+}
+
+.letter-button.selected {
+    background-color: #28a745;
+}
+
+/* Centralizar a tabela da matriz */
+table {
+    border-collapse: collapse;
+    margin: 0 auto; /* Centralizar horizontalmente */
+}
+
+td {
+    padding: 5px;
+}
+
+/* Botões abaixo da matriz */
+button[type="submit"],
+button[type="button"] {
+    margin: 10px 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+button[type="button"] {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+button[type="button"]:hover {
+    background-color: #c82333;
+}
+
+p {
+    margin: 1px 0; /* Margem vertical reduzida */
+    padding: 0; /* Remover qualquer padding */
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Teórico - Computação Gráfica</title>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three@0.173.0/build/three.module.js"
+            }
+        }
+    </script>
+    <script src="./javascript/Three.js" type="module"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div id="info">
+        <h1>MatriXform</h1>
+        <p>Insira a matriz 4x4 para a letra selecionada</p>
+        <p>Espaços em branco equivalem a 0</p>
+
+
+    
+        <!-- Palavra HOME com botões para selecionar letras -->
+        <div id="letters">
+            <button type="button" class="letter-button" data-matrix="MatrizH">H</button>
+            <button type="button" class="letter-button" data-matrix="MatrizO">O</button>
+            <button type="button" class="letter-button" data-matrix="MatrizM">M</button>
+            <button type="button" class="letter-button" data-matrix="MatrizE">E</button>
+        </div>
+    
+        <!-- Formulário para a matriz -->
+        <form id="matrix-form">
+            <input type="hidden" id="selected-matrix" name="selected-matrix" value="">
+            <table>
+                <!-- Linha 1 -->
+                <tr>
+                    <td><input type="text" id="m00"></td>
+                    <td><input type="text" id="m01"></td>
+                    <td><input type="text" id="m02"></td>
+                    <td><input type="text" id="m03"></td>
+                </tr>
+                <!-- Linha 2 -->
+                <tr>
+                    <td><input type="text" id="m10"></td>
+                    <td><input type="text" id="m11"></td>
+                    <td><input type="text" id="m12"></td>
+                    <td><input type="text" id="m13"></td>
+                </tr>
+                <!-- Linha 3 -->
+                <tr>
+                    <td><input type="text" id="m20"></td>
+                    <td><input type="text" id="m21"></td>
+                    <td><input type="text" id="m22"></td>
+                    <td><input type="text" id="m23"></td>
+                </tr>
+                <!-- Linha 4 -->
+                <tr>
+                    <td><input type="text" id="m30"></td>
+                    <td><input type="text" id="m31"></td>
+                    <td><input type="text" id="m32"></td>
+                    <td><input type="text" id="m33"></td>
+                </tr>
+            </table>
+            <br>
+            <button type="submit">Aplicar Matriz</button>
+            <button type="button" id="reset-matrix">Resetar Matriz</button>
+
+        </form>
+    </div>
+
+    <div id="canvas-container">
+        <canvas id="three-canvas"></canvas>
+    </div>
+</body>
+</html>
