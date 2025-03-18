@@ -1,4 +1,7 @@
+![neo-matrix-stop-bullets-ezgif com-webp-to-jpg-converter](https://github.com/user-attachments/assets/c424ecca-9e81-44e0-887f-22318fcc6867)
+
 # MatriXform
+
 Este projeto aplica transformações geométricas a letras num ambiente 3D utilizando Three.js. Foi desenvolvido com base num exercício proposto pelo professor da disciplina de Computação Gráfica.
 
 ## 🔍 Visão Geral
@@ -28,13 +31,10 @@ O objetivo do projeto é permitir a seleção de letras e a aplicação de matri
 
 ## 🌐 Demonstração Online
 O projeto está hospedado no **GitHub Pages** e pode ser acedido em:
-👉 [Seu Projeto no GitHub Pages](https://seu-usuario.github.io/seu-repositorio/)
+👉 [Seu Projeto no GitHub Pages](https://VitorARibeiro.github.io/MatriXform/)
 
 ## 📷 Capturas de ecrã
-Adicione algumas imagens do projeto para ilustrar como funciona.
-
-## 📜 Licença
-Este projeto é distribuído sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
+![imagem](https://github.com/user-attachments/assets/986f0e37-c114-4bb6-85ad-1fa935e1fb57)
 
 ---
 
