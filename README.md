@@ -18,11 +18,11 @@ O objetivo do projeto é permitir a seleção de letras e a aplicação de matri
 ## 📌 Como Executar
 1. Clone do repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/VitorARibeiro/MatriXform.git
    ```
 2. Aceda a pasta do projeto:
    ```bash
-   cd nome-do-projeto
+   cd MatriXform
    ```
 3. Abra o arquivo `index.html` num navegador ou utilize uma extensão/local server para rodar o projeto corretamente.
 
