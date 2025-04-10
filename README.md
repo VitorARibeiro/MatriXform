@@ -30,7 +30,7 @@ O objetivo do projeto é permitir a seleção de letras e a aplicação de matri
 
 ## 🌐 Demonstração Online
 O projeto está hospedado no **GitHub Pages** e pode ser acedido em:
-👉 [Seu Projeto no GitHub Pages](https://VitorARibeiro.github.io/MatriXform/)
+👉 [MatriXform](https://VitorARibeiro.github.io/MatriXform/)
 
 ## 📷 Capturas de ecrã
 ![imagem](https://github.com/user-attachments/assets/986f0e37-c114-4bb6-85ad-1fa935e1fb57)
